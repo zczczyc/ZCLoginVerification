@@ -1,0 +1,1259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B2FAA00EF41030FE6E3FD490B03D1CD /* fftoast_error.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BEF3FDCF78BEDAE8532384C1939B3F7 /* fftoast_error.png */; };
+		100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 364BDBADCDB84C72E9934433AB09F7BE /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		10701BE37276680265C5A399FC4B4588 /* fftoast_info_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B0D55E1BDBFEDEEB1696B8F0BF23F4 /* fftoast_info_highlight.png */; };
+		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F9F94AB7E093F59184AD2BE79F587B /* MASViewAttribute.m */; };
+		19907BD90FEA832CB577E8E83A1CFAB7 /* fftoast_dismiss@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFD742EF94DDFD37D0CA2E6D68DE540 /* fftoast_dismiss@3x.png */; };
+		207E122F012934E957846A8E84EE438F /* Pods-LoginView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 111248EE8CF6072AFAC0C9AC0443A855 /* Pods-LoginView-dummy.m */; };
+		214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B164BBBA4E30A14B88DA29BABE5BB34F /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		22E20989A4E256277224A0E8849D488E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2BD7EEDE9BAAF44DCFD949D3E0765E22 /* fftoast_warning@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9CFC47BC823211454EA413CA4D36978 /* fftoast_warning@3x.png */; };
+		2BDF90A5E60161F8D2CC8DFF6EA66676 /* fftoast_dismiss@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B36DADEEE77007DFB196B415B69E60 /* fftoast_dismiss@2x.png */; };
+		2D6137C1DC2A9E39912720033D659A5E /* fftoast_warning.png in Resources */ = {isa = PBXBuildFile; fileRef = FF20E3A3B89FFAAC7C812B24552785AB /* fftoast_warning.png */; };
+		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 7705C7325EC9E61BF7CB27F74D6CC6F0 /* MASViewConstraint.m */; };
+		3B41BB396B22B70EEEEF2DF890735F3A /* Pods-LoginViewTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D608DBF524C308FABD5C828AE21CCA3C /* Pods-LoginViewTests-dummy.m */; };
+		3E66D8C6CB0A625C71530CE680F2D359 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 40D29F74BC430F7D0F5A65E4DA767E46 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		41E2DD1E72C9734D2CE828D8AF824886 /* fftoast_warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F15FA270BB5201E362E4E268BD9A00E /* fftoast_warning@2x.png */; };
+		420E92FD0E5A6445A7F683339D6435B2 /* FFToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B172FC1849CBB7C6C622D6133EA574 /* FFToast-dummy.m */; };
+		447E9A47EC67CE5CD0B537AD11D8CD58 /* fftoast_success_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FB325975897ADAB104F94A708EE44A59 /* fftoast_success_highlight@2x.png */; };
+		493E87EA9A1BB98570F6C7C3D6416B22 /* fftoast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6CE42CAF7CC5243D6254C2C3BDD5859 /* fftoast_success@2x.png */; };
+		50A6305E602F34D12894ABA09D5C9200 /* FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E7F0810F755F206C913574523C56E26 /* FFToast.m */; };
+		523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9417C439C30F0328D5A250432C0EEE99 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		57B9AB7816D02124DF41BB9D3AF01C6B /* fftoast_dismiss.png in Resources */ = {isa = PBXBuildFile; fileRef = 80FAA440CF320C2A0338881AC53C17D4 /* fftoast_dismiss.png */; };
+		5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = AEB983E6763C6E3FF134C0ED5B551EB8 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 891206C8DD69C38CC2018D657ADE4F20 /* MASCompositeConstraint.m */; };
+		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		68043E93928F0CAA8A09DC9658FF7E8C /* fftoast_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D8BF9609379950474A4DE1BEBBD72BD /* fftoast_info.png */; };
+		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 224D49059E9DB18DD43298721B343957 /* Masonry-dummy.m */; };
+		6C631A2FEB3F3DFB763CF06DB8F37B7C /* fftoast_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5FEA79C9317688AE8647204A450FDC3 /* fftoast_info@2x.png */; };
+		6DC57396F5C9DEA78011F6D8E07C759D /* fftoast_success_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = EFDE142EE2D8C118F840BC39B05D043F /* fftoast_success_highlight.png */; };
+		6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C342AE52557E8E4AF685011D300F21C5 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		719D5DC7ECDB17666672CFA1DA17E2C6 /* fftoast_warning_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 063DC1096BB40F2EDFC4AF961412539D /* fftoast_warning_highlight.png */; };
+		7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D613AA8D5079E84B9DF6C0938C1E19EF /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D4024577BE65FF56710B163A884D30 /* NSArray+MASAdditions.m */; };
+		81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 10073C13346C92304ED8F88D33E6C12F /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86AFA2EA11689C2C391EC26E518B1724 /* NSString+FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC9DF0D53422DF21ACB529BCF0C3FC3 /* NSString+FFToast.m */; };
+		86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA1775E36702D7EAEC50BC18734AA07 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8703E350A106D29B9FCAD07B00F64D19 /* FFToast.h in Headers */ = {isa = PBXBuildFile; fileRef = FCE91D8D9BF6BF851C3934D0C5D2E309 /* FFToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A14C2697BA1F5751D6438984795E4F /* MASConstraint.m */; };
+		8D8E9C3BD59D742964AE2663DCB02CFE /* fftoast_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B48646F7465CA0BCFF281C7238F4DC24 /* fftoast_error@2x.png */; };
+		8FAF725D05C0ED9451C3B89190A3C16F /* UIImage+FFToast.m in Sources */ = {isa = PBXBuildFile; fileRef = A8D57FD1B03B27B8094269E2FE58ED30 /* UIImage+FFToast.m */; };
+		90823D1B8DC8A1017CC71BD995D34BBE /* fftoast_warning_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4EE0F56968012271CC6F3728DF7E619 /* fftoast_warning_highlight@3x.png */; };
+		91B5A7329785F6E661EA2106BAAFFF43 /* FFBaseToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484854B32FE895EF3FB5F830695E1F21 /* FFBaseToastView.m */; };
+		92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FCCBE873F89D31DEF0F43CF6B69FD1 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9539268F0B35D2FB78951D20EF9FE72E /* FFCentreToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = D282EAAF65E94F23D5EF90B347C5F0AE /* FFCentreToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B07345F0A0E60926FC190EF76805229 /* MASLayoutConstraint.m */; };
+		9674D0BF57D34CA592C9823E4731F416 /* fftoast_error_highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 800248362477998C51A2F088D5612CD3 /* fftoast_error_highlight.png */; };
+		9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B4514A428AD453DFCCDB20D778584BE /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BAA05469227B552B616E95CC97100DA /* fftoast_error_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EBABDCB6C9C11FA10AAC679CEF3F4DF /* fftoast_error_highlight@3x.png */; };
+		9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = B2317E8D5F722A551DAA2EF148CEC1D2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A06421764883666A7ADEF66C038BD32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A14C3FCDEA44A50F692557E9F595A426 /* fftoast_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED5760624DBDF184195EB5F243905D8E /* fftoast_info@3x.png */; };
+		A1B4C50AF5A6B6BDC00118DB8129F6E3 /* FFCentreToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8512CBA7219A5D40A6104497B1BED62F /* FFCentreToastView.m */; };
+		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 97E3B85F45B444E994DE32989526822A /* View+MASAdditions.m */; };
+		A2C17A9DD46AC17050DE7DA00E99363A /* fftoast_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DA3C620DFA91C06E04E65096C3D6D2A /* fftoast_error@3x.png */; };
+		AC999938C3675191E1F20CD5DBF86A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		ACF44E8263E3136D679AD170F001052F /* FFConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D883D6BE3C2E49018F7EDE9603F0487 /* FFConfig.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B45BEBAD99FADF3AD804C9CF3B8BB690 /* fftoast_success_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B5E4AD1FEEE2E5F67A0125A0AF2BBA /* fftoast_success_highlight@3x.png */; };
+		B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CC4FDE248C74C4286FD768E4C68844D /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6FA695438A3826265F0F9D4373A4D07 /* NSString+FFToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C8DAB7411853B36E3F40E7A297A756B4 /* NSString+FFToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BC81C4205624091289E1866C36000E16 /* UIImage+FFToast.h in Headers */ = {isa = PBXBuildFile; fileRef = E604922DE736D33C95AB0AD6DEDFC625 /* UIImage+FFToast.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C08E5120F4545CED6E5675000CF66875 /* FFBaseToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5955858067F1580A97664C064377C259 /* FFBaseToastView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 268A0D98B60C843801DE0F5CB1A979E5 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC43D73AF06105A57EF9B67DE0D0FA12 /* fftoast_warning_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A93421BB15D9E9F8C46AABBBE96B76 /* fftoast_warning_highlight@2x.png */; };
+		CF53815731CF5C9C58E2B5EB1AD29575 /* fftoast_info_highlight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = B65DF69AD3E3F268D9CA7C1C1605CE8B /* fftoast_info_highlight@3x.png */; };
+		D4850DC39B654C38E68FAF5C2B18F67A /* fftoast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CD9E5FC8965B9DF71909AD19D194F3C /* fftoast_success@3x.png */; };
+		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 588B0D92BC1BA83220E660913CB163E2 /* ViewController+MASAdditions.m */; };
+		DC55D6AFDD6B7B8F294EA6DE17C56684 /* Pods-LoginViewUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EFFCC11601C1110754678EB59318D5 /* Pods-LoginViewUITests-dummy.m */; };
+		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B5EBAD3492B1018AE0EAFDBE41D2653 /* MASConstraintMaker.m */; };
+		E7238A723C6BD8541B29A349959FE95E /* fftoast_error_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D61CDFA32D4490B489F8DB763BF0AB29 /* fftoast_error_highlight@2x.png */; };
+		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B21CAF0EF3BC852C8F6526CF4AB6A3 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 7678EE1B0C4F45D0921AADA80CBB38E4 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FD0F8A392F4BFDD878EA3D10C6356929 /* fftoast_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 9254D8338FAB67878B3C5D5E10D540B9 /* fftoast_success.png */; };
+		FECA6F49AC0EB882B481A99D0077630E /* fftoast_info_highlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0DF29AD2334DAAD2E69E408793E9197 /* fftoast_info_highlight@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF421B8D6F7A6A517CFAB153D2434BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB04506E912C10DE40BB5648CC3CC1DF;
+			remoteInfo = FFToast;
+		};
+		2205972592A8CA4792B5F6647E1B6391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7501A2AA1956CAB9DEECB96ACBCF324A;
+			remoteInfo = "Pods-LoginView";
+		};
+		7CA8C91864A785E5C2CA56D63A009526 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 727E0C69C4CDA7E9CC5EF3012340C234;
+			remoteInfo = "FFToast-FFToast";
+		};
+		900D4AC010F65F0383ABCE2987FC66C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
+		};
+		D07D6B0C64FC6ADE3EDD9AD3AF14957D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7501A2AA1956CAB9DEECB96ACBCF324A;
+			remoteInfo = "Pods-LoginView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		039398E6B4CD1DE15D568F3126CC0FDA /* Pods-LoginViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		063DC1096BB40F2EDFC4AF961412539D /* fftoast_warning_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_warning_highlight.png; path = FFToast/Assets/fftoast_warning_highlight.png; sourceTree = "<group>"; };
+		082400DA9CA1D03DFB5D6C1561F634E0 /* Pods-LoginView-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginView-resources.sh"; sourceTree = "<group>"; };
+		0883F2F890E1D9744609917148AD3F59 /* Pods-LoginViewTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginViewTests-resources.sh"; sourceTree = "<group>"; };
+		09C6C0E12E22F175547F889B1412D65D /* libPods-LoginView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LoginView.a"; path = "libPods-LoginView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEF3FDCF78BEDAE8532384C1939B3F7 /* fftoast_error.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_error.png; path = FFToast/Assets/fftoast_error.png; sourceTree = "<group>"; };
+		0D8BF9609379950474A4DE1BEBBD72BD /* fftoast_info.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_info.png; path = FFToast/Assets/fftoast_info.png; sourceTree = "<group>"; };
+		10073C13346C92304ED8F88D33E6C12F /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		111248EE8CF6072AFAC0C9AC0443A855 /* Pods-LoginView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginView-dummy.m"; sourceTree = "<group>"; };
+		14D5C6072C97FF125832422F2E5784E2 /* libPods-LoginViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LoginViewTests.a"; path = "libPods-LoginViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199A550084AF7AD47966BBD11E435285 /* libPods-LoginViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LoginViewUITests.a"; path = "libPods-LoginViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F15FA270BB5201E362E4E268BD9A00E /* fftoast_warning@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@2x.png"; path = "FFToast/Assets/fftoast_warning@2x.png"; sourceTree = "<group>"; };
+		224D49059E9DB18DD43298721B343957 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		25EFFCC11601C1110754678EB59318D5 /* Pods-LoginViewUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginViewUITests-dummy.m"; sourceTree = "<group>"; };
+		268A0D98B60C843801DE0F5CB1A979E5 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		2CD9E5FC8965B9DF71909AD19D194F3C /* fftoast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@3x.png"; path = "FFToast/Assets/fftoast_success@3x.png"; sourceTree = "<group>"; };
+		2DD3788DAD3B328414FC5CC4D48D6970 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		2E8D76FB131D09338310331394042ECF /* Pods-LoginViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		31A444E158BD3DBE6FAC5D7893BEE908 /* Pods-LoginViewTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginViewTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		34A14C2697BA1F5751D6438984795E4F /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		364BDBADCDB84C72E9934433AB09F7BE /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		371F04C90AD506CE6C74579645EB23A7 /* Pods-LoginView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginView.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA3C620DFA91C06E04E65096C3D6D2A /* fftoast_error@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error@3x.png"; path = "FFToast/Assets/fftoast_error@3x.png"; sourceTree = "<group>"; };
+		3F5BBDC78475804F6A918991AE33E1C5 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		404CA94BE7A3A5DFB29E09C464C2ADC9 /* Pods-LoginViewTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginViewTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40D29F74BC430F7D0F5A65E4DA767E46 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		41A096AD1533F456CBE3CAC9E2D60171 /* Pods-LoginViewTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginViewTests-frameworks.sh"; sourceTree = "<group>"; };
+		42F9F94AB7E093F59184AD2BE79F587B /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		44B36DADEEE77007DFB196B415B69E60 /* fftoast_dismiss@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_dismiss@2x.png"; path = "FFToast/Assets/fftoast_dismiss@2x.png"; sourceTree = "<group>"; };
+		484854B32FE895EF3FB5F830695E1F21 /* FFBaseToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFBaseToastView.m; path = FFToast/Classes/FFBaseToastView.m; sourceTree = "<group>"; };
+		49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFToast.xcconfig; sourceTree = "<group>"; };
+		4B4514A428AD453DFCCDB20D778584BE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		4EFD742EF94DDFD37D0CA2E6D68DE540 /* fftoast_dismiss@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_dismiss@3x.png"; path = "FFToast/Assets/fftoast_dismiss@3x.png"; sourceTree = "<group>"; };
+		5018FA2D7A87441BC1600E9568B07047 /* FFToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FFToast-prefix.pch"; sourceTree = "<group>"; };
+		522085071D5416577BED6D045A0F1E77 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5370BCBFEA7A3A6E54D45059271A496C /* Pods-LoginViewUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginViewUITests-frameworks.sh"; sourceTree = "<group>"; };
+		55B0D55E1BDBFEDEEB1696B8F0BF23F4 /* fftoast_info_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_info_highlight.png; path = FFToast/Assets/fftoast_info_highlight.png; sourceTree = "<group>"; };
+		588B0D92BC1BA83220E660913CB163E2 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		58D4024577BE65FF56710B163A884D30 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5955858067F1580A97664C064377C259 /* FFBaseToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFBaseToastView.h; path = FFToast/Classes/FFBaseToastView.h; sourceTree = "<group>"; };
+		6B5EBAD3492B1018AE0EAFDBE41D2653 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		6CC4FDE248C74C4286FD768E4C68844D /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		72B172FC1849CBB7C6C622D6133EA574 /* FFToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FFToast-dummy.m"; sourceTree = "<group>"; };
+		7678EE1B0C4F45D0921AADA80CBB38E4 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		7705C7325EC9E61BF7CB27F74D6CC6F0 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		7BA1775E36702D7EAEC50BC18734AA07 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		7D883D6BE3C2E49018F7EDE9603F0487 /* FFConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFConfig.h; path = FFToast/Classes/FFConfig.h; sourceTree = "<group>"; };
+		7E7F0810F755F206C913574523C56E26 /* FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFToast.m; path = FFToast/Classes/FFToast.m; sourceTree = "<group>"; };
+		800248362477998C51A2F088D5612CD3 /* fftoast_error_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_error_highlight.png; path = FFToast/Assets/fftoast_error_highlight.png; sourceTree = "<group>"; };
+		80FAA440CF320C2A0338881AC53C17D4 /* fftoast_dismiss.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_dismiss.png; path = FFToast/Assets/fftoast_dismiss.png; sourceTree = "<group>"; };
+		8512CBA7219A5D40A6104497B1BED62F /* FFCentreToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FFCentreToastView.m; path = FFToast/Classes/FFCentreToastView.m; sourceTree = "<group>"; };
+		891206C8DD69C38CC2018D657ADE4F20 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		8B07345F0A0E60926FC190EF76805229 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		8EBABDCB6C9C11FA10AAC679CEF3F4DF /* fftoast_error_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error_highlight@3x.png"; path = "FFToast/Assets/fftoast_error_highlight@3x.png"; sourceTree = "<group>"; };
+		913A3EC6609D87B71E3EF75E61890602 /* Pods-LoginViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		9254D8338FAB67878B3C5D5E10D540B9 /* fftoast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_success.png; path = FFToast/Assets/fftoast_success.png; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9417C439C30F0328D5A250432C0EEE99 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		97E3B85F45B444E994DE32989526822A /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		A75BBEDC6361ECBA70F287B2C804D97E /* Pods-LoginViewUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginViewUITests-resources.sh"; sourceTree = "<group>"; };
+		A8D57FD1B03B27B8094269E2FE58ED30 /* UIImage+FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+FFToast.m"; path = "FFToast/Category/UIImage+FFToast.m"; sourceTree = "<group>"; };
+		A9CFC47BC823211454EA413CA4D36978 /* fftoast_warning@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning@3x.png"; path = "FFToast/Assets/fftoast_warning@3x.png"; sourceTree = "<group>"; };
+		ACE1CC69DE96EBCE19E4F95AFA965FA1 /* Pods-LoginView-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginView-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AEB983E6763C6E3FF134C0ED5B551EB8 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AFC7BA7716FCCC5E15DD82C2D622409E /* Pods-LoginView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginView.release.xcconfig"; sourceTree = "<group>"; };
+		B164BBBA4E30A14B88DA29BABE5BB34F /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		B2317E8D5F722A551DAA2EF148CEC1D2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		B48646F7465CA0BCFF281C7238F4DC24 /* fftoast_error@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error@2x.png"; path = "FFToast/Assets/fftoast_error@2x.png"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B65DF69AD3E3F268D9CA7C1C1605CE8B /* fftoast_info_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info_highlight@3x.png"; path = "FFToast/Assets/fftoast_info_highlight@3x.png"; sourceTree = "<group>"; };
+		B8B5E4AD1FEEE2E5F67A0125A0AF2BBA /* fftoast_success_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success_highlight@3x.png"; path = "FFToast/Assets/fftoast_success_highlight@3x.png"; sourceTree = "<group>"; };
+		B9C655DCE597B5BE759C4E345D5A20F6 /* Pods-LoginView-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LoginView-frameworks.sh"; sourceTree = "<group>"; };
+		C2A99F6C5A5C6CC46985B6175F66606C /* Pods-LoginView-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginView-acknowledgements.plist"; sourceTree = "<group>"; };
+		C342AE52557E8E4AF685011D300F21C5 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		C6CE42CAF7CC5243D6254C2C3BDD5859 /* fftoast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success@2x.png"; path = "FFToast/Assets/fftoast_success@2x.png"; sourceTree = "<group>"; };
+		C8DAB7411853B36E3F40E7A297A756B4 /* NSString+FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+FFToast.h"; path = "FFToast/Category/NSString+FFToast.h"; sourceTree = "<group>"; };
+		D282EAAF65E94F23D5EF90B347C5F0AE /* FFCentreToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFCentreToastView.h; path = FFToast/Classes/FFCentreToastView.h; sourceTree = "<group>"; };
+		D6065E5D0407C91B11B90B9AD60A9A13 /* libFFToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libFFToast.a; path = libFFToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D608DBF524C308FABD5C828AE21CCA3C /* Pods-LoginViewTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LoginViewTests-dummy.m"; sourceTree = "<group>"; };
+		D613AA8D5079E84B9DF6C0938C1E19EF /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		D61CDFA32D4490B489F8DB763BF0AB29 /* fftoast_error_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_error_highlight@2x.png"; path = "FFToast/Assets/fftoast_error_highlight@2x.png"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D8A6ED7992190100A0D2D289B569FB21 /* Pods-LoginViewUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LoginViewUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D991D3D62AB59ED0480D989A7051C708 /* Pods-LoginViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LoginViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E48300144D6D33DA19A0A2841FD04F66 /* ResourceBundle-FFToast-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FFToast-Info.plist"; sourceTree = "<group>"; };
+		E5B21CAF0EF3BC852C8F6526CF4AB6A3 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		E5FEA79C9317688AE8647204A450FDC3 /* fftoast_info@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info@2x.png"; path = "FFToast/Assets/fftoast_info@2x.png"; sourceTree = "<group>"; };
+		E604922DE736D33C95AB0AD6DEDFC625 /* UIImage+FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+FFToast.h"; path = "FFToast/Category/UIImage+FFToast.h"; sourceTree = "<group>"; };
+		E7D5878B2E2B00BD6858671C2B35B30D /* Pods-LoginViewUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LoginViewUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EBC9DF0D53422DF21ACB529BCF0C3FC3 /* NSString+FFToast.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+FFToast.m"; path = "FFToast/Category/NSString+FFToast.m"; sourceTree = "<group>"; };
+		ED5760624DBDF184195EB5F243905D8E /* fftoast_info@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info@3x.png"; path = "FFToast/Assets/fftoast_info@3x.png"; sourceTree = "<group>"; };
+		EFDE142EE2D8C118F840BC39B05D043F /* fftoast_success_highlight.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_success_highlight.png; path = FFToast/Assets/fftoast_success_highlight.png; sourceTree = "<group>"; };
+		F0DF29AD2334DAAD2E69E408793E9197 /* fftoast_info_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_info_highlight@2x.png"; path = "FFToast/Assets/fftoast_info_highlight@2x.png"; sourceTree = "<group>"; };
+		F0FCCBE873F89D31DEF0F43CF6B69FD1 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F1A93421BB15D9E9F8C46AABBBE96B76 /* fftoast_warning_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning_highlight@2x.png"; path = "FFToast/Assets/fftoast_warning_highlight@2x.png"; sourceTree = "<group>"; };
+		F4EE0F56968012271CC6F3728DF7E619 /* fftoast_warning_highlight@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_warning_highlight@3x.png"; path = "FFToast/Assets/fftoast_warning_highlight@3x.png"; sourceTree = "<group>"; };
+		FB325975897ADAB104F94A708EE44A59 /* fftoast_success_highlight@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "fftoast_success_highlight@2x.png"; path = "FFToast/Assets/fftoast_success_highlight@2x.png"; sourceTree = "<group>"; };
+		FCE91D8D9BF6BF851C3934D0C5D2E309 /* FFToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FFToast.h; path = FFToast/Classes/FFToast.h; sourceTree = "<group>"; };
+		FF20E3A3B89FFAAC7C812B24552785AB /* fftoast_warning.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = fftoast_warning.png; path = FFToast/Assets/fftoast_warning.png; sourceTree = "<group>"; };
+		FF9484CBC3456570662236E8C8127BC5 /* FFToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FFToast.bundle; path = "FFToast-FFToast.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06114114954121E7F32F67CE7A2AF532 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E66D8C6CB0A625C71530CE680F2D359 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B23F6D15050963CCBBD997F17E38D2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A06421764883666A7ADEF66C038BD32E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */,
+				6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DF22AE824BA092159E2A9180DE6E923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94DF1D3E6F98C14C8CB6FCDBFC518E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC999938C3675191E1F20CD5DBF86A38 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6BB908EF81B9A0C791AB8649F4D327B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E20989A4E256277224A0E8849D488E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21030484657C8CE9E5AB5AE88C630B7D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */,
+				72B172FC1849CBB7C6C622D6133EA574 /* FFToast-dummy.m */,
+				5018FA2D7A87441BC1600E9568B07047 /* FFToast-prefix.pch */,
+				E48300144D6D33DA19A0A2841FD04F66 /* ResourceBundle-FFToast-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FFToast";
+			sourceTree = "<group>";
+		};
+		2E5334968021221239DF474F46DAE214 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D40FC62810A9F1C54BE77273343D187 /* Pods-LoginView */,
+				CC4592E7561AD3B3733FB27A588F4D2E /* Pods-LoginViewTests */,
+				5C2A26481641A557ACCCB5E105392336 /* Pods-LoginViewUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		35D32F0B4FFF2A929324DEC7C604A3F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				80FAA440CF320C2A0338881AC53C17D4 /* fftoast_dismiss.png */,
+				44B36DADEEE77007DFB196B415B69E60 /* fftoast_dismiss@2x.png */,
+				4EFD742EF94DDFD37D0CA2E6D68DE540 /* fftoast_dismiss@3x.png */,
+				0BEF3FDCF78BEDAE8532384C1939B3F7 /* fftoast_error.png */,
+				B48646F7465CA0BCFF281C7238F4DC24 /* fftoast_error@2x.png */,
+				3DA3C620DFA91C06E04E65096C3D6D2A /* fftoast_error@3x.png */,
+				800248362477998C51A2F088D5612CD3 /* fftoast_error_highlight.png */,
+				D61CDFA32D4490B489F8DB763BF0AB29 /* fftoast_error_highlight@2x.png */,
+				8EBABDCB6C9C11FA10AAC679CEF3F4DF /* fftoast_error_highlight@3x.png */,
+				0D8BF9609379950474A4DE1BEBBD72BD /* fftoast_info.png */,
+				E5FEA79C9317688AE8647204A450FDC3 /* fftoast_info@2x.png */,
+				ED5760624DBDF184195EB5F243905D8E /* fftoast_info@3x.png */,
+				55B0D55E1BDBFEDEEB1696B8F0BF23F4 /* fftoast_info_highlight.png */,
+				F0DF29AD2334DAAD2E69E408793E9197 /* fftoast_info_highlight@2x.png */,
+				B65DF69AD3E3F268D9CA7C1C1605CE8B /* fftoast_info_highlight@3x.png */,
+				9254D8338FAB67878B3C5D5E10D540B9 /* fftoast_success.png */,
+				C6CE42CAF7CC5243D6254C2C3BDD5859 /* fftoast_success@2x.png */,
+				2CD9E5FC8965B9DF71909AD19D194F3C /* fftoast_success@3x.png */,
+				EFDE142EE2D8C118F840BC39B05D043F /* fftoast_success_highlight.png */,
+				FB325975897ADAB104F94A708EE44A59 /* fftoast_success_highlight@2x.png */,
+				B8B5E4AD1FEEE2E5F67A0125A0AF2BBA /* fftoast_success_highlight@3x.png */,
+				FF20E3A3B89FFAAC7C812B24552785AB /* fftoast_warning.png */,
+				1F15FA270BB5201E362E4E268BD9A00E /* fftoast_warning@2x.png */,
+				A9CFC47BC823211454EA413CA4D36978 /* fftoast_warning@3x.png */,
+				063DC1096BB40F2EDFC4AF961412539D /* fftoast_warning_highlight.png */,
+				F1A93421BB15D9E9F8C46AABBBE96B76 /* fftoast_warning_highlight@2x.png */,
+				F4EE0F56968012271CC6F3728DF7E619 /* fftoast_warning_highlight@3x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5C2A26481641A557ACCCB5E105392336 /* Pods-LoginViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7D5878B2E2B00BD6858671C2B35B30D /* Pods-LoginViewUITests-acknowledgements.markdown */,
+				D8A6ED7992190100A0D2D289B569FB21 /* Pods-LoginViewUITests-acknowledgements.plist */,
+				25EFFCC11601C1110754678EB59318D5 /* Pods-LoginViewUITests-dummy.m */,
+				5370BCBFEA7A3A6E54D45059271A496C /* Pods-LoginViewUITests-frameworks.sh */,
+				A75BBEDC6361ECBA70F287B2C804D97E /* Pods-LoginViewUITests-resources.sh */,
+				D991D3D62AB59ED0480D989A7051C708 /* Pods-LoginViewUITests.debug.xcconfig */,
+				2E8D76FB131D09338310331394042ECF /* Pods-LoginViewUITests.release.xcconfig */,
+			);
+			name = "Pods-LoginViewUITests";
+			path = "Target Support Files/Pods-LoginViewUITests";
+			sourceTree = "<group>";
+		};
+		667306A014F72EAB4B124261E0ABE593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF9484CBC3456570662236E8C8127BC5 /* FFToast.bundle */,
+				D6065E5D0407C91B11B90B9AD60A9A13 /* libFFToast.a */,
+				522085071D5416577BED6D045A0F1E77 /* libMasonry.a */,
+				09C6C0E12E22F175547F889B1412D65D /* libPods-LoginView.a */,
+				14D5C6072C97FF125832422F2E5784E2 /* libPods-LoginViewTests.a */,
+				199A550084AF7AD47966BBD11E435285 /* libPods-LoginViewUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C70FF42A6A53CEFB4CC119EE4F32ED1 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				E5B21CAF0EF3BC852C8F6526CF4AB6A3 /* MASCompositeConstraint.h */,
+				891206C8DD69C38CC2018D657ADE4F20 /* MASCompositeConstraint.m */,
+				C342AE52557E8E4AF685011D300F21C5 /* MASConstraint.h */,
+				34A14C2697BA1F5751D6438984795E4F /* MASConstraint.m */,
+				10073C13346C92304ED8F88D33E6C12F /* MASConstraint+Private.h */,
+				6CC4FDE248C74C4286FD768E4C68844D /* MASConstraintMaker.h */,
+				6B5EBAD3492B1018AE0EAFDBE41D2653 /* MASConstraintMaker.m */,
+				4B4514A428AD453DFCCDB20D778584BE /* MASLayoutConstraint.h */,
+				8B07345F0A0E60926FC190EF76805229 /* MASLayoutConstraint.m */,
+				9417C439C30F0328D5A250432C0EEE99 /* Masonry.h */,
+				D613AA8D5079E84B9DF6C0938C1E19EF /* MASUtilities.h */,
+				364BDBADCDB84C72E9934433AB09F7BE /* MASViewAttribute.h */,
+				42F9F94AB7E093F59184AD2BE79F587B /* MASViewAttribute.m */,
+				AEB983E6763C6E3FF134C0ED5B551EB8 /* MASViewConstraint.h */,
+				7705C7325EC9E61BF7CB27F74D6CC6F0 /* MASViewConstraint.m */,
+				B2317E8D5F722A551DAA2EF148CEC1D2 /* NSArray+MASAdditions.h */,
+				58D4024577BE65FF56710B163A884D30 /* NSArray+MASAdditions.m */,
+				7678EE1B0C4F45D0921AADA80CBB38E4 /* NSArray+MASShorthandAdditions.h */,
+				B164BBBA4E30A14B88DA29BABE5BB34F /* NSLayoutConstraint+MASDebugAdditions.h */,
+				40D29F74BC430F7D0F5A65E4DA767E46 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				268A0D98B60C843801DE0F5CB1A979E5 /* View+MASAdditions.h */,
+				97E3B85F45B444E994DE32989526822A /* View+MASAdditions.m */,
+				F0FCCBE873F89D31DEF0F43CF6B69FD1 /* View+MASShorthandAdditions.h */,
+				7BA1775E36702D7EAEC50BC18734AA07 /* ViewController+MASAdditions.h */,
+				588B0D92BC1BA83220E660913CB163E2 /* ViewController+MASAdditions.m */,
+				AF83D7F3515348B4AB6AF467A889451C /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				BCCBB00236D6EFAA812E52433A053B64 /* Pods */,
+				667306A014F72EAB4B124261E0ABE593 /* Products */,
+				2E5334968021221239DF474F46DAE214 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8D40FC62810A9F1C54BE77273343D187 /* Pods-LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				ACE1CC69DE96EBCE19E4F95AFA965FA1 /* Pods-LoginView-acknowledgements.markdown */,
+				C2A99F6C5A5C6CC46985B6175F66606C /* Pods-LoginView-acknowledgements.plist */,
+				111248EE8CF6072AFAC0C9AC0443A855 /* Pods-LoginView-dummy.m */,
+				B9C655DCE597B5BE759C4E345D5A20F6 /* Pods-LoginView-frameworks.sh */,
+				082400DA9CA1D03DFB5D6C1561F634E0 /* Pods-LoginView-resources.sh */,
+				371F04C90AD506CE6C74579645EB23A7 /* Pods-LoginView.debug.xcconfig */,
+				AFC7BA7716FCCC5E15DD82C2D622409E /* Pods-LoginView.release.xcconfig */,
+			);
+			name = "Pods-LoginView";
+			path = "Target Support Files/Pods-LoginView";
+			sourceTree = "<group>";
+		};
+		AF83D7F3515348B4AB6AF467A889451C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DD3788DAD3B328414FC5CC4D48D6970 /* Masonry.xcconfig */,
+				224D49059E9DB18DD43298721B343957 /* Masonry-dummy.m */,
+				3F5BBDC78475804F6A918991AE33E1C5 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		BCCBB00236D6EFAA812E52433A053B64 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3291695AADD4658250DB2842245FEA3 /* FFToast */,
+				6C70FF42A6A53CEFB4CC119EE4F32ED1 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC4592E7561AD3B3733FB27A588F4D2E /* Pods-LoginViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				404CA94BE7A3A5DFB29E09C464C2ADC9 /* Pods-LoginViewTests-acknowledgements.markdown */,
+				31A444E158BD3DBE6FAC5D7893BEE908 /* Pods-LoginViewTests-acknowledgements.plist */,
+				D608DBF524C308FABD5C828AE21CCA3C /* Pods-LoginViewTests-dummy.m */,
+				41A096AD1533F456CBE3CAC9E2D60171 /* Pods-LoginViewTests-frameworks.sh */,
+				0883F2F890E1D9744609917148AD3F59 /* Pods-LoginViewTests-resources.sh */,
+				039398E6B4CD1DE15D568F3126CC0FDA /* Pods-LoginViewTests.debug.xcconfig */,
+				913A3EC6609D87B71E3EF75E61890602 /* Pods-LoginViewTests.release.xcconfig */,
+			);
+			name = "Pods-LoginViewTests";
+			path = "Target Support Files/Pods-LoginViewTests";
+			sourceTree = "<group>";
+		};
+		D3291695AADD4658250DB2842245FEA3 /* FFToast */ = {
+			isa = PBXGroup;
+			children = (
+				5955858067F1580A97664C064377C259 /* FFBaseToastView.h */,
+				484854B32FE895EF3FB5F830695E1F21 /* FFBaseToastView.m */,
+				D282EAAF65E94F23D5EF90B347C5F0AE /* FFCentreToastView.h */,
+				8512CBA7219A5D40A6104497B1BED62F /* FFCentreToastView.m */,
+				7D883D6BE3C2E49018F7EDE9603F0487 /* FFConfig.h */,
+				FCE91D8D9BF6BF851C3934D0C5D2E309 /* FFToast.h */,
+				7E7F0810F755F206C913574523C56E26 /* FFToast.m */,
+				C8DAB7411853B36E3F40E7A297A756B4 /* NSString+FFToast.h */,
+				EBC9DF0D53422DF21ACB529BCF0C3FC3 /* NSString+FFToast.m */,
+				E604922DE736D33C95AB0AD6DEDFC625 /* UIImage+FFToast.h */,
+				A8D57FD1B03B27B8094269E2FE58ED30 /* UIImage+FFToast.m */,
+				35D32F0B4FFF2A929324DEC7C604A3F2 /* Resources */,
+				21030484657C8CE9E5AB5AE88C630B7D /* Support Files */,
+			);
+			name = FFToast;
+			path = FFToast;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48D3046700DC97A1648F6E83D86F5C37 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C08E5120F4545CED6E5675000CF66875 /* FFBaseToastView.h in Headers */,
+				9539268F0B35D2FB78951D20EF9FE72E /* FFCentreToastView.h in Headers */,
+				ACF44E8263E3136D679AD170F001052F /* FFConfig.h in Headers */,
+				8703E350A106D29B9FCAD07B00F64D19 /* FFToast.h in Headers */,
+				B6FA695438A3826265F0F9D4373A4D07 /* NSString+FFToast.h in Headers */,
+				BC81C4205624091289E1866C36000E16 /* UIImage+FFToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */,
+				81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */,
+				6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */,
+				B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */,
+				9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */,
+				523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */,
+				7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */,
+				100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */,
+				5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */,
+				9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */,
+				FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */,
+				214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */,
+				92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */,
+				86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		62BF2DEA78A4FF0D5F09CD1140443BC6 /* Pods-LoginViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A367BC51BDE29246889BD19B09E84094 /* Build configuration list for PBXNativeTarget "Pods-LoginViewTests" */;
+			buildPhases = (
+				C06CCCCEDC59B0C122F244758441AE56 /* Sources */,
+				94DF1D3E6F98C14C8CB6FCDBFC518E58 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B85CD1454B3ECB49D96ED06D1BE9121 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginViewTests";
+			productName = "Pods-LoginViewTests";
+			productReference = 14D5C6072C97FF125832422F2E5784E2 /* libPods-LoginViewTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		683FF1D39AA11C5B90338942B213D140 /* Pods-LoginViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CAFA1571784BD295BD8800EA7ED232 /* Build configuration list for PBXNativeTarget "Pods-LoginViewUITests" */;
+			buildPhases = (
+				A9C3541362F41B72FB19B9007052684A /* Sources */,
+				3B23F6D15050963CCBBD997F17E38D2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C89300FFB35B4579955F2CB0E25AC0D /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginViewUITests";
+			productName = "Pods-LoginViewUITests";
+			productReference = 199A550084AF7AD47966BBD11E435285 /* libPods-LoginViewUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		727E0C69C4CDA7E9CC5EF3012340C234 /* FFToast-FFToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8401920EDD884E7AB68F3C3D2176EA9 /* Build configuration list for PBXNativeTarget "FFToast-FFToast" */;
+			buildPhases = (
+				B5690229D020508B4981696794CEC7A3 /* Sources */,
+				7DF22AE824BA092159E2A9180DE6E923 /* Frameworks */,
+				35E5ECEA6EC9AFF2AC68D1FB9CFD60B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FFToast-FFToast";
+			productName = "FFToast-FFToast";
+			productReference = FF9484CBC3456570662236E8C8127BC5 /* FFToast.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7501A2AA1956CAB9DEECB96ACBCF324A /* Pods-LoginView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D90FC8FA68BC3E75BA44F77CED77C9 /* Build configuration list for PBXNativeTarget "Pods-LoginView" */;
+			buildPhases = (
+				E9943046A3E69E264746EE23AF940B07 /* Sources */,
+				C6BB908EF81B9A0C791AB8649F4D327B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				852FD1EEAC95A9FDE496AEA7BCE03496 /* PBXTargetDependency */,
+				EBBA5FA89B3C9D3BC09766CB7D593941 /* PBXTargetDependency */,
+			);
+			name = "Pods-LoginView";
+			productName = "Pods-LoginView";
+			productReference = 09C6C0E12E22F175547F889B1412D65D /* libPods-LoginView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				C4BE2DC1E815E7367562323223772531 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 522085071D5416577BED6D045A0F1E77 /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CB04506E912C10DE40BB5648CC3CC1DF /* FFToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6026A6B9767DF42505AF50CD05BCF78E /* Build configuration list for PBXNativeTarget "FFToast" */;
+			buildPhases = (
+				29070DED57399CA110524C2EA8CA1445 /* Sources */,
+				06114114954121E7F32F67CE7A2AF532 /* Frameworks */,
+				48D3046700DC97A1648F6E83D86F5C37 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7ADC0BEFEE540B30B13D36AEADE9DB3C /* PBXTargetDependency */,
+			);
+			name = FFToast;
+			productName = FFToast;
+			productReference = D6065E5D0407C91B11B90B9AD60A9A13 /* libFFToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 667306A014F72EAB4B124261E0ABE593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB04506E912C10DE40BB5648CC3CC1DF /* FFToast */,
+				727E0C69C4CDA7E9CC5EF3012340C234 /* FFToast-FFToast */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				7501A2AA1956CAB9DEECB96ACBCF324A /* Pods-LoginView */,
+				62BF2DEA78A4FF0D5F09CD1140443BC6 /* Pods-LoginViewTests */,
+				683FF1D39AA11C5B90338942B213D140 /* Pods-LoginViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35E5ECEA6EC9AFF2AC68D1FB9CFD60B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B9AB7816D02124DF41BB9D3AF01C6B /* fftoast_dismiss.png in Resources */,
+				2BDF90A5E60161F8D2CC8DFF6EA66676 /* fftoast_dismiss@2x.png in Resources */,
+				19907BD90FEA832CB577E8E83A1CFAB7 /* fftoast_dismiss@3x.png in Resources */,
+				0B2FAA00EF41030FE6E3FD490B03D1CD /* fftoast_error.png in Resources */,
+				8D8E9C3BD59D742964AE2663DCB02CFE /* fftoast_error@2x.png in Resources */,
+				A2C17A9DD46AC17050DE7DA00E99363A /* fftoast_error@3x.png in Resources */,
+				9674D0BF57D34CA592C9823E4731F416 /* fftoast_error_highlight.png in Resources */,
+				E7238A723C6BD8541B29A349959FE95E /* fftoast_error_highlight@2x.png in Resources */,
+				9BAA05469227B552B616E95CC97100DA /* fftoast_error_highlight@3x.png in Resources */,
+				68043E93928F0CAA8A09DC9658FF7E8C /* fftoast_info.png in Resources */,
+				6C631A2FEB3F3DFB763CF06DB8F37B7C /* fftoast_info@2x.png in Resources */,
+				A14C3FCDEA44A50F692557E9F595A426 /* fftoast_info@3x.png in Resources */,
+				10701BE37276680265C5A399FC4B4588 /* fftoast_info_highlight.png in Resources */,
+				FECA6F49AC0EB882B481A99D0077630E /* fftoast_info_highlight@2x.png in Resources */,
+				CF53815731CF5C9C58E2B5EB1AD29575 /* fftoast_info_highlight@3x.png in Resources */,
+				FD0F8A392F4BFDD878EA3D10C6356929 /* fftoast_success.png in Resources */,
+				493E87EA9A1BB98570F6C7C3D6416B22 /* fftoast_success@2x.png in Resources */,
+				D4850DC39B654C38E68FAF5C2B18F67A /* fftoast_success@3x.png in Resources */,
+				6DC57396F5C9DEA78011F6D8E07C759D /* fftoast_success_highlight.png in Resources */,
+				447E9A47EC67CE5CD0B537AD11D8CD58 /* fftoast_success_highlight@2x.png in Resources */,
+				B45BEBAD99FADF3AD804C9CF3B8BB690 /* fftoast_success_highlight@3x.png in Resources */,
+				2D6137C1DC2A9E39912720033D659A5E /* fftoast_warning.png in Resources */,
+				41E2DD1E72C9734D2CE828D8AF824886 /* fftoast_warning@2x.png in Resources */,
+				2BD7EEDE9BAAF44DCFD949D3E0765E22 /* fftoast_warning@3x.png in Resources */,
+				719D5DC7ECDB17666672CFA1DA17E2C6 /* fftoast_warning_highlight.png in Resources */,
+				CC43D73AF06105A57EF9B67DE0D0FA12 /* fftoast_warning_highlight@2x.png in Resources */,
+				90823D1B8DC8A1017CC71BD995D34BBE /* fftoast_warning_highlight@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29070DED57399CA110524C2EA8CA1445 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B5A7329785F6E661EA2106BAAFFF43 /* FFBaseToastView.m in Sources */,
+				A1B4C50AF5A6B6BDC00118DB8129F6E3 /* FFCentreToastView.m in Sources */,
+				420E92FD0E5A6445A7F683339D6435B2 /* FFToast-dummy.m in Sources */,
+				50A6305E602F34D12894ABA09D5C9200 /* FFToast.m in Sources */,
+				86AFA2EA11689C2C391EC26E518B1724 /* NSString+FFToast.m in Sources */,
+				8FAF725D05C0ED9451C3B89190A3C16F /* UIImage+FFToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C3541362F41B72FB19B9007052684A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC55D6AFDD6B7B8F294EA6DE17C56684 /* Pods-LoginViewUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5690229D020508B4981696794CEC7A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C06CCCCEDC59B0C122F244758441AE56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B41BB396B22B70EEEEF2DF890735F3A /* Pods-LoginViewTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
+				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
+				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
+				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
+				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
+				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
+				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
+				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
+				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
+				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9943046A3E69E264746EE23AF940B07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207E122F012934E957846A8E84EE438F /* Pods-LoginView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B85CD1454B3ECB49D96ED06D1BE9121 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LoginView";
+			target = 7501A2AA1956CAB9DEECB96ACBCF324A /* Pods-LoginView */;
+			targetProxy = 2205972592A8CA4792B5F6647E1B6391 /* PBXContainerItemProxy */;
+		};
+		5C89300FFB35B4579955F2CB0E25AC0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LoginView";
+			target = 7501A2AA1956CAB9DEECB96ACBCF324A /* Pods-LoginView */;
+			targetProxy = D07D6B0C64FC6ADE3EDD9AD3AF14957D /* PBXContainerItemProxy */;
+		};
+		7ADC0BEFEE540B30B13D36AEADE9DB3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FFToast-FFToast";
+			target = 727E0C69C4CDA7E9CC5EF3012340C234 /* FFToast-FFToast */;
+			targetProxy = 7CA8C91864A785E5C2CA56D63A009526 /* PBXContainerItemProxy */;
+		};
+		852FD1EEAC95A9FDE496AEA7BCE03496 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FFToast;
+			target = CB04506E912C10DE40BB5648CC3CC1DF /* FFToast */;
+			targetProxy = 0DF421B8D6F7A6A517CFAB153D2434BC /* PBXContainerItemProxy */;
+		};
+		EBBA5FA89B3C9D3BC09766CB7D593941 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = 900D4AC010F65F0383ABCE2987FC66C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1B156AC6AB2F169EB64DE10520605210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E8D76FB131D09338310331394042ECF /* Pods-LoginViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E5C762004F5E029EB051AD7FE44C544 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 039398E6B4CD1DE15D568F3126CC0FDA /* Pods-LoginViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F4E071769C9FC73FCBF0D133D8207B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFToast";
+				INFOPLIST_FILE = "Target Support Files/FFToast/ResourceBundle-FFToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FFToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2BCEEA9381755EE6C556E03918DA285D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 913A3EC6609D87B71E3EF75E61890602 /* Pods-LoginViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		359610EA3AE86B1F337CC07FCBF4F5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFToast/FFToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFToast;
+				PRODUCT_NAME = FFToast;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FFAFACEB6D30058B9EBE094B45B369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 371F04C90AD506CE6C74579645EB23A7 /* Pods-LoginView.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6033A2127E806DD5C86A515742F7445E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD3788DAD3B328414FC5CC4D48D6970 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6681B1A324732F8264BB932595DFA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DD3788DAD3B328414FC5CC4D48D6970 /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C5E6951EF6B7C7960C6E7FF8422AC1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FFToast";
+				INFOPLIST_FILE = "Target Support Files/FFToast/ResourceBundle-FFToast-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FFToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A48908DD0FB1DE22FAB0A4122B533CE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D991D3D62AB59ED0480D989A7051C708 /* Pods-LoginViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C64512EFD6D17EE6F630AA774DA7A337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC7BA7716FCCC5E15DD82C2D622409E /* Pods-LoginView.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F11B45D2830ED0130B88301565E87A8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B899A98F28976725837C811D7914A7 /* FFToast.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FFToast/FFToast-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FFToast;
+				PRODUCT_NAME = FFToast;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DC0083F57E9AB706B46C5B5D73B38D8 /* Debug */,
+				AEEA80476F98EB645C4DD53EB2BB6D88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6033A2127E806DD5C86A515742F7445E /* Debug */,
+				6681B1A324732F8264BB932595DFA69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6026A6B9767DF42505AF50CD05BCF78E /* Build configuration list for PBXNativeTarget "FFToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F11B45D2830ED0130B88301565E87A8B /* Debug */,
+				359610EA3AE86B1F337CC07FCBF4F5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D90FC8FA68BC3E75BA44F77CED77C9 /* Build configuration list for PBXNativeTarget "Pods-LoginView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FFAFACEB6D30058B9EBE094B45B369 /* Debug */,
+				C64512EFD6D17EE6F630AA774DA7A337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A367BC51BDE29246889BD19B09E84094 /* Build configuration list for PBXNativeTarget "Pods-LoginViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E5C762004F5E029EB051AD7FE44C544 /* Debug */,
+				2BCEEA9381755EE6C556E03918DA285D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CAFA1571784BD295BD8800EA7ED232 /* Build configuration list for PBXNativeTarget "Pods-LoginViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A48908DD0FB1DE22FAB0A4122B533CE1 /* Debug */,
+				1B156AC6AB2F169EB64DE10520605210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8401920EDD884E7AB68F3C3D2176EA9 /* Build configuration list for PBXNativeTarget "FFToast-FFToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C5E6951EF6B7C7960C6E7FF8422AC1C /* Debug */,
+				22F4E071769C9FC73FCBF0D133D8207B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

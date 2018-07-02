@@ -1,0 +1,20 @@
+PODS:
+  - FFToast (1.2.0)
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - FFToast
+  - Masonry (~> 1.0.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FFToast
+    - Masonry
+
+SPEC CHECKSUMS:
+  FFToast: 60e0f3c9fd8fc473205015055ee39cd200404e01
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: 449f052f0807d30b8a6b66fa38e445cc7777e9ec
+
+COCOAPODS: 1.5.0

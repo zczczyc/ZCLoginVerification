@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LoginView' do
+  
+  pod 'Masonry', '~> 1.0.2'#自动布局框架
+  pod 'FFToast'# 替代敏行的提示框架
+
+  target 'LoginViewTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'LoginViewUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
