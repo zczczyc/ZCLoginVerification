@@ -1,1 +1,1 @@
-![登录GIF](Img/login.gif)
+![登录GIF](LoginView/Img/login.gif)
